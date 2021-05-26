@@ -1,7 +1,7 @@
-import React, {Component} from "react";
-import About from "./About";
-import Archive from "./Archive";
-import Home from "./Home";
+import React from "react";
+import About from ".//components/About";
+import Archive from ".//components/Archive";
+import Home from ".//components/Home";
 import {
     BrowserRouter as Router,
     Switch,
@@ -9,12 +9,8 @@ import {
     Link
 } from "react-router-dom";
 
-class App extends Component {
-    constructor(props) {
-        super(props);
-    }
-
-    render() {
+const App = ()=> {
+    
         return (
             <Router>
                 <div>
@@ -46,7 +42,7 @@ class App extends Component {
                 </div>
             </Router>
         )
-    }
+    
 }
 
 export default App;

@@ -1,3 +1,3 @@
 export default function About ({about}) {
-    return <h1>About {about}</h1>
+    return <h1>About OIOfied{about}</h1>
 }
